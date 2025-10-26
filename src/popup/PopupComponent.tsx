@@ -21,7 +21,7 @@ export const PopupComponent = () => {
                 <img src="icons/logo.svg" alt="DeArrow Logo" width="40" height="40" id="dearrowPopupLogo"/>
                 <p className="u-mZ">
                     <FormattedText
-                        text="DeArrow"
+                        text="LibreDeArrow"
                         titleFormatting={titleFormatting}
                     />
                 </p>
