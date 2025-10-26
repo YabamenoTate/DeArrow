@@ -2,18 +2,7 @@
   <a href="https://dearrow.ajay.app"><img src="public/icons/logo-128.png" alt="Logo"></img></a>
 </p>
 
-<h1 align="center">DeArrow</h1>
-
-<p align="center">
-  <b>Download:</b>
-  <a href="https://chrome.google.com/webstore/detail/dearrow-better-titles-and/enamippconapkdmgfgjchkhakpfinmaj">Chrome/Chromium</a> |
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/dearrow/">Firefox</a> |
-  <a href="https://apps.apple.com/app/dearrow-for-youtube/id6451469297">Safari for MacOS and iOS</a> |
-  <a href="https://github.com/ajayyy/DeArrow/wiki/Android">Android</a> |
-  <a href="https://dearrow.ajay.app/payment">Buy</a> |
-  <a href="https://dearrow.ajay.app">Website</a> |
-  <a href="https://dearrow.ajay.app/stats">Stats</a>
-</p>
+<h1 align="center">Libre DeArrow</h1>
 
 DeArrow is a browser extension for crowdsourcing better titles and thumbnails on YouTube.
 
@@ -57,14 +46,6 @@ Lastly, it adds a "show original" button if anything was changed, allowing you t
 ### Group Policy Options
 
 See the [Firefox Managed Storage](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/managed), [Chrome Admin Settings](https://www.chromium.org/administrators/configuring-policy-for-extensions/) and [Edge ExtensionSettings](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-manage-extensions-ref-guide) pages for more info. This [uBlock Origin wiki page](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin) might also help.
-
-It is possible to inject a license key using group policy/managed storage to be able to have the extension auto-activated even when you reset the settings on each install.
-
-```json
-{
-  "licenseKey": "your license key here"
-}
-```
 
 ### Building
 

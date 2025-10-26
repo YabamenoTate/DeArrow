@@ -71,22 +71,6 @@ async function init() {
         donate!.classList.remove("hidden");
     }
 
-    const viewLicenseKey = document.getElementById("licenseKeyButton");
-    getLicenseKey().then((licenseKey) => {
-        if (licenseKey) {
-            const licenseKeyElement = document.getElementById("licenseKey");
-            licenseKeyElement!.innerText = licenseKey;
-
-            const sharingText = document.getElementById("sharingLicense");
-
-            viewLicenseKey!.classList.remove("hidden");
-            viewLicenseKey!.addEventListener("click", () => {
-                licenseKeyElement!.classList.toggle("hidden");
-                sharingText!.classList.toggle("hidden");
-            });
-        }
-    }).catch(logError);
-    
     // Set all of the toggle options to the correct option
     const optionsContainer = document.getElementById("options")!;
     const optionsElements = optionsContainer!.querySelectorAll("*");
