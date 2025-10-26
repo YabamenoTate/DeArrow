@@ -1,10 +1,10 @@
 {
-    "name": "__MSG_deArrowFullName__",
-    "short_name": "Libre DeArrow",
+    "name": "LibreDeArrow",
+    "short_name": "LibreDeArrow",
     "version": "2.1.11",
     "default_locale": "en",
     "description": "__MSG_deArrowDescription__",
-    "homepage_url": "https://dearrow.ajay.app",
+    "homepage_url": "https://github.com/YabamenoTate/LibreDeArrow",
     "permissions": [
         "storage",
         "unlimitedStorage",

@@ -28,25 +28,6 @@ export const PopupComponent = () => {
             </header>
 
             {
-                (!Config.config!.activated) &&
-                <div className="activation-needed">
-                    {
-                        !isActivated() &&
-                        <p>
-                            {chrome.i18n.getMessage("DeArrowNotActivated")}
-                        </p>
-                    }
-
-                    <div className="option-button"
-                        onClick={() => {
-                            void chrome.runtime.sendMessage({ message: "openPayment" });
-                        }}>
-                        {chrome.i18n.getMessage("ActivateDeArrow")}
-                    </div>
-                </div>
-            }
-
-            {
                 isActivated() &&
                 <>
                     {/* Toggle Box */}

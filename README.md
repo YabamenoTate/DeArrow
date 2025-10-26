@@ -2,7 +2,7 @@
   <a href="https://dearrow.ajay.app"><img src="public/icons/logo-128.png" alt="Logo"></img></a>
 </p>
 
-<h1 align="center">Libre DeArrow</h1>
+<h1 align="center">LibreDeArrow</h1>
 
 DeArrow is a browser extension for crowdsourcing better titles and thumbnails on YouTube.
 
